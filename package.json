@@ -1,0 +1,25 @@
+{
+  "name": "yfpl",
+  "version": "1.0.0",
+  "description": "Just another Data Language",
+  "main": "./src/index.js",
+  "files": [
+      "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loldonut/jdt.git"
+  },
+  "keywords": [
+    "jdt"
+  ],
+  "author": "loldonut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loldonut/jdt/issues"
+  },
+  "homepage": "https://github.com/loldonut/jdt#readme"
+}

@@ -1,0 +1,18 @@
+# An example on how i want the language to be
+# And NOT what the language actually is
+# See `tests` instead if you want to see
+# this languages test.
+
+# String
+name - "string"
+
+# Number
+number - 68
+
+# Boolean
+boolfalse - false
+booltrue - true
+
+# null & undefined
+ex_null - null
+ex_undefined - undefined
