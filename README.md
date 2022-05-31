@@ -11,7 +11,7 @@ bar - false
 
 Separate the name and value by `-`
 
-**Important Note:** It's important to add spaces in-between `-` otherwise the parser won't be able to read your date!
+**Important Note:** It's important to add spaces in-between `-` otherwise the parser won't be able to read your data!
 
 ### Parsing YFL to JS Object
 
