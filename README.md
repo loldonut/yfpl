@@ -13,12 +13,12 @@ Separate the name and value by `-`
 
 **Important Note:** It's important to add spaces in-between `-` otherwise the parser won't be able to read your data!
 
-### Parsing YFL to JS Object
+### Parsing YFPL to JS Object
 
 ```js
-const YFL = require('yfl');
+const YFPL = require('yfpl');
 
-YFL.parse('some - "data"');
+YFPL.parse('some - "data"');
 ```
 
 **Or read from a file:**
@@ -26,9 +26,10 @@ YFL.parse('some - "data"');
 ```js
 const fs = require('node:fs');
 // or require('fs');
+const YFPL = require('yfpl');
 
 const data = fs.readFileSync('/path/to/file');
-const res = YFL.parse(data);
+const res = YFPL.parse(data);
 console.log(res);
 ```
 
@@ -44,7 +45,7 @@ console.log(res);
 **Example of All Data Types**
 
 ```
-str - "strint"
+str - "string"
 num - 10111
 bool - true
 bool2 - false
