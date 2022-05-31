@@ -1,6 +1,6 @@
-# YFL
+# YFPL
 
-`YFL` = `Your Friendly Language`
+`YFPL` = `Your Friendly Programming Language`
 
 ## Example
 
