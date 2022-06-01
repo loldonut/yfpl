@@ -33,7 +33,7 @@ const res = YFPL.parse(data);
 console.log(res);
 ```
 
-### Convert JS Object to proper YFPL data using `stringify`
+### Convert JS Object to valid YFPL data using `stringify`
 
 ```js
 const YFPL = require('yfpl');
