@@ -1,3 +1,9 @@
+/**
+ * Parse your YFPL file or data to a JS Object
+ * 
+ * @param {string} text
+ * @returns {string|null}
+ */
 function parse(text) {
     const regex = /[ -~]* - (\d+|\"[ -~]*\"|true|false|null|undefined)/gi;
     
