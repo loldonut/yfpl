@@ -33,6 +33,26 @@ const res = YFPL.parse(data);
 console.log(res);
 ```
 
+### Convert JS Object to proper YFPL data using `stringify`
+
+```js
+const YFPL = require('yfpl');
+
+const dataObj = YFPL.stringify({
+    some: 'data',
+    right: true,
+});
+
+console.log(dataObj);
+```
+
+Should output:
+
+```
+some - "data"
+right - true
+```
+
 ## Data Types
 
 **Data types can be:**
