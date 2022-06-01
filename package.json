@@ -13,17 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loldonut/jdt.git"
+    "url": "git+https://github.com/loldonut/yfpl.git"
   },
   "keywords": [
-    "jdt"
+    "yfpl"
   ],
   "author": "loldonut",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loldonut/jdt/issues"
+    "url": "https://github.com/loldonut/yfpl/issues"
   },
-  "homepage": "https://github.com/loldonut/jdt#readme",
+  "homepage": "https://github.com/loldonut/yfpl#readme",
   "devDependencies": {
     "jest": "^28.1.0"
   }
