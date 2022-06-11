@@ -1,5 +1,7 @@
 # YFPL
 
+[![testing](https://github.com/loldonut/yfpl/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/loldonut/yfpl/actions/workflows/test.yml)
+
 `YFPL` = `Your Friendly Programming Language`
 
 ## Example
