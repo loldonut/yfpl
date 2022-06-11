@@ -59,6 +59,7 @@ right - true
 
 <details>
 <summary><b>Supported Data Types</b></summary>
+<br>
 
 `string`
 
@@ -70,7 +71,6 @@ right - true
 
 `undefined`
 
-<br>
 </details>
 
 **Example of All Data Types**
