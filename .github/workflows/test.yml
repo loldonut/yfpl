@@ -15,7 +15,6 @@ jobs:
       with:
         node-version: 16
         cache: 'npm'
-        cache-directory-path: package-lock.json
 
     - name: Install & Run Node dependencies
       run: |
