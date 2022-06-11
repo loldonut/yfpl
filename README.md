@@ -1,10 +1,16 @@
 # YFPL
 
-[![testing](https://github.com/loldonut/yfpl/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/loldonut/yfpl/actions/workflows/test.yml)
-![npm bundle size](https://img.shields.io/bundlephobia/min/yfpl?logo=npm)
-![npm](https://img.shields.io/npm/v/yfpl?label=Latest%20Release%20%28NPM%29&logo=npm)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/loldonut/yfpl?label=Latest%20Release%20%28GitHub%29&logo=github)
-![GitHub](https://img.shields.io/github/license/loldonut/yfpl)
+<div align="center">
+    <br>
+    <p>
+        <a href="https://github.com/loldonut/yfpl/actions/workflows/test.yml"><img src="https://github.com/loldonut/yfpl/actions/workflows/test.yml/badge.svg?branch=main" alt="testing"/></a>
+        <img src="https://img.shields.io/bundlephobia/min/yfpl?logo=npm" alt="NPM minified size" />
+        <img src="https://img.shields.io/npm/v/yfpl?label=Latest%20Release%20%28NPM%29&logo=npm" alt="npm" />
+        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/loldonut/yfpl?label=Latest%20Release%20%28GitHub%29&logo=github" />
+        <img alt="License" src="https://img.shields.io/github/license/loldonut/yfpl" />
+    </p>
+    </br>
+</div>
 
 `YFPL` = `Your Friendly Programming Language`
 
