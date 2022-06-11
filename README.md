@@ -57,12 +57,20 @@ right - true
 
 ## Data Types
 
-**Data types can be:**
+<summary><b>Supported Data Types</b></summary>
+<details>
 
 `string`
+
 `number`
+
 `boolean`
-`null|undefined`
+
+`null`
+
+`undefined`
+
+</details>
 
 **Example of All Data Types**
 
