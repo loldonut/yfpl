@@ -26,6 +26,7 @@ function parse(text) {
     }
     // bool (true|false)
     else if (['true', 'false'].includes(value)) result[name] = value === 'true';
+    // undefined and null
     else if (['undefined', 'null'].includes(value)) {
       if (value === 'null') result[name] = null;
       else if (value === 'undefined') result[name] = undefined;
