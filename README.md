@@ -57,8 +57,9 @@ right - true
 
 ## Data Types
 
-<summary><b>Supported Data Types</b></summary>
 <details>
+<summary><b>Supported Data Types</b></summary>
+<br>
 
 `string`
 
