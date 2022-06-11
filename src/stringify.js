@@ -2,10 +2,10 @@
  * Turns your object into valid YFPL data
  *
  * @param {Object} obj
- * @returns {string|null}
+ * @returns {string}
  */
 function stringify(obj) {
-    if (obj == null) return null;
+    if (obj == null) return '';
     const datas = [];
     for (const key in obj) {
         datas.push(
