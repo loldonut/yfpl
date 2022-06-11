@@ -8,6 +8,6 @@ describe('Stringify', () => {
     it('should not be null', () => {
         expect(stringify({
             test: 'maybe',
-        })).toBe('test - maybe');
+        })).toBe('test - "maybe"');
     });
 });
