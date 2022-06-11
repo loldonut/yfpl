@@ -2,13 +2,13 @@
  * Parse your YFPL file or data to a JS Object
  * 
  * @param {string} text
- * @returns {string|null}
+ * @returns {string}
  */
 function parse(text) {
     const regex = /[ -~]* - (\d+|\"[ -~]*\"|true|false|null|undefined)/gi;
     
     const values = text.match(regex);
-    if (values == null) return null;
+    if (values == null) return '';
 
     const result = {};
 
