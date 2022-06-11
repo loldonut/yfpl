@@ -5,17 +5,17 @@
  * @returns {string}
  */
 function stringify(obj) {
-    if (obj == null) return '';
-    const datas = [];
-    for (const key in obj) {
-        datas.push(
-            typeof obj[key] === 'string'
-                ? `${key} - "${obj[key]}"`
-                : `${key} - ${obj[key]}`
-        );
-    }
+  if (obj == null) return '';
+  const datas = [];
+  for (const key in obj) {
+    datas.push(
+      typeof obj[key] === 'string'
+        ? `${key} - "${obj[key]}"`
+        : `${key} - ${obj[key]}`
+    );
+  }
 
-    return datas.join('\n');
+  return datas.join('\n');
 }
 
 module.exports = stringify;
