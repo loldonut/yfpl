@@ -6,6 +6,7 @@ const parse = require('./parse');
  * Parse a YFPL data from a file
  *
  * @param {string} filename
+ * @returns {string}
  */
 function parseFromFile(filename) {
   const fileContent = readFileSync(filename, { encoding: 'utf8' });
