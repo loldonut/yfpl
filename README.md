@@ -40,8 +40,7 @@ const fs = require('node:fs');
 // or require('fs');
 const YFPL = require('yfpl');
 
-const data = fs.readFileSync('/path/to/file');
-const res = YFPL.parse(data);
+const res = YFPL.parseFromFile('FILENAME');
 console.log(res);
 ```
 
@@ -63,6 +62,17 @@ Should output:
 ```
 some - "data"
 right - true
+```
+
+You can also use stringify then output it to a file using `stringifyToFile`
+
+```js
+const YFPL = require('yfpl');
+
+YFPL.stringify('OUTPUT_FILENAME', {
+  an: 'object',
+  to: 'convert to yfpl data',
+});
 ```
 
 ## Data Types
