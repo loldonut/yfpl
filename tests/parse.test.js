@@ -1,15 +1,24 @@
-const { parse } = require('../src');
+const { join } = require('path');
+const { parse, parseFromFile } = require('../src');
 
 describe('Parse', () => {
-  const data = parse(`str - "string"
+  const data = parse(`
+        str - "string"
         num - 1
         bool - true
         boolfalse - false
         none - null
-        und - undefined`);
+        und - undefined
+  `);
 
   it('should not be empty', () => {
     expect(data != null).toBe(true);
+  });
+
+  it('should be able to read from file', () => {
+    expect(parseFromFile(join(__dirname, 'test.yfpl'))).toStrictEqual({
+      some: 'string',
+    });
   });
 
   it('should parse as string type', () => {
