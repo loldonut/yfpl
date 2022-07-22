@@ -1,3 +1,5 @@
+const Regex = require('./Regex');
+
 /**
  * Parse your YFPL file or data to a JS Object
  *
@@ -5,7 +7,7 @@
  * @returns {string}
  */
 function parse(text) {
-  const regex = /[ -~]* - (\d+|\"[ -~]*\"|true|false|null|undefined)/gi;
+  const regex = Regex.Main;
 
   const values = text.match(regex);
   if (values == null) return '';
@@ -18,7 +20,7 @@ function parse(text) {
     name = name.replaceAll(' ', '');
 
     // String
-    if (new RegExp('"[ -~]*"', 'gi').test(value)) {
+    if (Regex.Strings.test(value)) {
       if (value === '""') {
         throw new Error(`String cannot be empty\nAT: ${name}`);
       }
@@ -32,7 +34,7 @@ function parse(text) {
       else if (value === 'undefined') result[name] = undefined;
     }
     // Number
-    else if (/\d*/g.test(value)) {
+    else if (Regex.Numbers.test(value)) {
       result[name] = parseInt(value);
     }
   });
